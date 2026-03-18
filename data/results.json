@@ -1,0 +1,115 @@
+{
+  "description": "Pre-computed Stokes multipliers C_M for M=2..11",
+  "paper": "Zhou, 'Stokes Multipliers of x^{2M} Anharmonic Oscillators', 2026",
+  "doi": "10.6084/m9.figshare.31796332.v1",
+  "convention": "H = p^2/2 + x^2/2 + g*x^{2M}, E(g) = sum a_k g^k",
+  "large_order": "a_k ~ C_M * (-1)^{k+1} * A_M^{-k} * Gamma((M-1)*k + 1/2)",
+  "results": {
+    "2": {
+      "A": "0.333333333333333333333333333333",
+      "A_exact": "1/3",
+      "C": "-0.439896813581545433665527900000",
+      "C_exact": "-sqrt(6/pi^3)",
+      "C_relation": "C^2 * pi^3 = 6",
+      "digits": "exact",
+      "orders": 500,
+      "dps": 200,
+      "phi_half": 0
+    },
+    "3": {
+      "A": "0.308425137534042456838577843746",
+      "A_exact": "pi^2/32",
+      "C": "-0.573159168250756262865894100000",
+      "C_exact": "-4*sqrt(2)/pi^2",
+      "C_relation": "C^2 * pi^4 = 32",
+      "digits": "exact",
+      "orders": 500,
+      "dps": 200,
+      "phi_half": 0
+    },
+    "4": {
+      "A": "0.297739885142370658773244677634",
+      "A_exact": "[Gamma(1/3)*sqrt(pi)/(6*2^{1/3}*Gamma(11/6))]^3",
+      "C": "-0.740051498259358506401511491622",
+      "C_exact": null,
+      "C_relation": "NONE FOUND (30 digits, maxcoeff=2000)",
+      "digits": 30,
+      "orders": 1200,
+      "dps": 300,
+      "phi_half": 1
+    },
+    "5": {
+      "A": "0.291778889088323846131267587245",
+      "A_exact": "[Gamma(1/4)*sqrt(pi)/(8*2^{1/4}*Gamma(7/4))]^4",
+      "C": "-0.913760117024928468986081300000",
+      "C_exact": "-8*sqrt(3)/(Gamma(1/4)*pi^{5/4})",
+      "C_relation": "C^4 * Gamma(1/4)^4 * pi^5 = 2^12 * 3^2 = 36864",
+      "digits": "exact",
+      "orders": 600,
+      "dps": 200,
+      "phi_half": 1
+    },
+    "6": {
+      "A": "0.287972487847264091718728808099",
+      "C": "-1.08996636164395131221510062742",
+      "C_exact": null,
+      "C_relation": "NONE FOUND (20 digits)",
+      "digits": 20,
+      "orders": 500,
+      "dps": 200,
+      "phi_half": 2
+    },
+    "7": {
+      "A": "0.285330302539346927208347312964",
+      "C": "-1.26735986467847453437595360681",
+      "C_exact": "C^6 * Gamma(1/3)^9 * pi^6 = 2^20 * 3^3",
+      "C_relation": "C^6 * Gamma(1/3)^9 * pi^6 = 28311552",
+      "C_relation_raw": "C^24 * Gamma(1/6)^18 * pi^33 = 2^74 * 3^21",
+      "PSLQ_vector": [24, 18, 33, -74, -21, 0],
+      "digits": 22,
+      "orders": 400,
+      "dps": 180,
+      "phi_half": 1
+    },
+    "8": {
+      "A": "0.283388704104389921997963186403",
+      "C": "-1.44540950636210473523026889156",
+      "C_exact": null,
+      "C_relation": "NONE FOUND (20 digits)",
+      "digits": 20,
+      "orders": 300,
+      "dps": 180,
+      "phi_half": 3
+    },
+    "9": {
+      "A": "0.281901521211548861628526992449",
+      "C": "-1.62385955076092601969800136820",
+      "C_exact": null,
+      "C_relation": "NONE FOUND (17 digits)",
+      "digits": 17,
+      "orders": 300,
+      "dps": 180,
+      "phi_half": 2
+    },
+    "10": {
+      "A": "0.280725871753553288534680601924",
+      "C": "-1.80257176723077881596154844141",
+      "C_exact": null,
+      "C_relation": "NONE FOUND (20 digits)",
+      "digits": 20,
+      "orders": 250,
+      "dps": 160,
+      "phi_half": 3
+    },
+    "11": {
+      "A": "0.279773113689115269310186058529",
+      "C": "-1.98146493811701581236167541205",
+      "C_exact": null,
+      "C_relation": "NONE FOUND (20 digits)",
+      "digits": 20,
+      "orders": 250,
+      "dps": 160,
+      "phi_half": 2
+    }
+  }
+}
